@@ -15,7 +15,7 @@ export const sliderItems = [
   },
   {
     id: 3,
-    img: "https://i.ibb.co/BPqBvd2/1.png",
+    img: "https://i.ibb.co/cyMnC23/pics-girasol.png",
     title: "The Beauty is in the style.",
     desc: "“Confidence is the only key. I can't think of any better representation of beauty than someone who is unafraid to be herself.” ― Emma Stone",
     bg: "#c19a30",

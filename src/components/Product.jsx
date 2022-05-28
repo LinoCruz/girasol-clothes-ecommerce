@@ -1,4 +1,4 @@
-import styled from "@emotion/styled";
+import styled from "styled-components";
 import {
   FavoriteBorderOutlined,
   SearchOutlined,
@@ -53,16 +53,17 @@ const Icon = styled.div`
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: white;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 10px;
   transition: all 0.5s ease;
+
   &:hover {
-    background-color: #7a9160;
+    background-color: #5f7553;
     color: white;
-    transform: scale(1.3);
+    transform: scale(1.1);
   }
 `;
 
