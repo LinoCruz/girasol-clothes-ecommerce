@@ -13,6 +13,7 @@ import styled from "styled-components";
 const Container = styled.div`
   font-family: Urbanist;
   display: flex;
+  background-color: #dcdfe4;
 `;
 
 const Left = styled.div`
@@ -83,9 +84,9 @@ const Footer = () => {
         <Logo>Lino Cruz</Logo>
         <Desc>
           {" "}
-          This website has been built with MERN tech to achieve the look and
-          functionality of the front end and the administration and data
-          collection of the backend. Made by Lino Cruz.
+          This website has been built with MERN tech. For the frontend I used
+          React.js and for the backend I used MongoDB, Express and Node.js. Made
+          by Lino Cruz.
         </Desc>
         <SocialContainer>
           <SocialIcon color="1da1f2">
@@ -117,7 +118,7 @@ const Footer = () => {
         </List>
       </Center>
       <Rigth>
-        <Title>contact</Title>
+        <Title>Contact</Title>
         <ContactItem>
           <Room style={{ marginRight: "10px" }} /> From Trujillo, Peru to all
           the World

@@ -22,9 +22,13 @@ const Filter = styled.div`
 const FilterText = styled.span`
   font-size: 20px;
   font-weight: 600;
+  margin-right: 20px;
 `;
 
-const Select = styled.select``;
+const Select = styled.select`
+  padding: 10px;
+  margin-right: 20px;
+`;
 const Option = styled.option``;
 
 const ProductList = () => {

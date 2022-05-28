@@ -35,7 +35,7 @@ export const categories = [
   },
   {
     id: 3,
-    img: "https://images.pexels.com/photos/1980103/pexels-photo-1980103.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    img: "https://images.pexels.com/photos/1980103/pexels-photo-1980103.jpeg",
     title: "FLOWERS BLOUSE",
   },
 ];
