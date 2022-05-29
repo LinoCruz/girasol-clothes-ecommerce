@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 import { useState } from "react";
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@mui/icons-material";
 import { sliderItems } from "../data";
-
+import { mobile } from "../responsive";
 const Container = styled.div`
   width: 100%;
   height: 100vh;
@@ -10,6 +10,7 @@ const Container = styled.div`
   position: relative;
   overflow: hidden;
   font-family: Urbanist;
+  ${mobile({ display: "none" })}
 `;
 
 const Arrow = styled.div`
